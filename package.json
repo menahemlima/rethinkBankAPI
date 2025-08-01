@@ -1,0 +1,20 @@
+{
+  "name": "api_automation",
+  "version": "1.0.0",
+  "description": "API automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Menahem Lima - QA",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^9.9.0",
+    "jest": "^30.0.5",
+    "jest-html-reporter": "^4.3.0",
+    "supertest": "^7.1.4"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.1"
+  }
+}
