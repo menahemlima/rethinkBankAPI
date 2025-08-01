@@ -5,7 +5,7 @@ const { AuthManager } = require('../utils/auth');
 
 const API_BASE_URL = process.env.API_BASE_URL;
 
-describe('Testes para pontuação', () => {
+describe('Testes para caixinha', () => {
     beforeAll(async () => {
         token = await AuthManager.postLogin();
     });
